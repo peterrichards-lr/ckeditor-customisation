@@ -1,0 +1,4 @@
+Bundle-Name: Liferay SE Frontend Editor CKEditor Sample Web
+Bundle-SymbolicName: com.liferay.sales.engineering.frontend.editor.ckeditor.sample.web
+Bundle-Version: 1.0.0
+Web-ContextPath: /frontend-editor-ckeditor-se-sample-web
