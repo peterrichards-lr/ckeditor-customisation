@@ -251,6 +251,7 @@ public class CKEditorSampleEditorConfigContributor extends BaseEditorConfigContr
                 toJSONArray("['Styles', 'Bold', 'Italic', 'Underline']"),
                 toJSONArray("['Superscript', 'Subscript']"),
                 toJSONArray("['NumberedList', 'BulletedList']"),
+                toJSONArray("['Indent', 'Outdent']"),
                 toJSONArray("['Link', Unlink]"),
                 toJSONArray("['Table', 'ImageSelector', 'VideoSelector']")
         ).put(
@@ -282,8 +283,7 @@ public class CKEditorSampleEditorConfigContributor extends BaseEditorConfigContr
                 toJSONArray("['Superscript', 'Subscript']"),
                 toJSONArray("['RemoveFormat']"),
                 toJSONArray("['NumberedList', 'BulletedList']"),
-                toJSONArray("['IncreaseIndent', 'DecreaseIndent']"),
-                toJSONArray("['IncreaseIndent', 'DecreaseIndent']"),
+                toJSONArray("['Indent', 'Outdent']"),
                 toJSONArray("['Link', Unlink]")
         ).put(
                 () -> {
@@ -304,6 +304,7 @@ public class CKEditorSampleEditorConfigContributor extends BaseEditorConfigContr
                 toJSONArray("['Styles', 'Bold', 'Italic', 'Underline']"),
                 toJSONArray("['Superscript', 'Subscript']"),
                 toJSONArray("['NumberedList', 'BulletedList']"),
+                toJSONArray("['Indent', 'Outdent']"),
                 toJSONArray("['Link', Unlink]")
         ).put(
                 () -> {
